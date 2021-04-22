@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="AllTests" verbose="1" >
+  <test name="PostiveTests" >
+    <classes>
+       <class name="com.herokuapp.thinternet.PositiveTests" />
+    </classes>
+  </test>
+ 
+  <test name="NegativeTests">
+    <classes>
+      <class name="com.herokuapp.thinternet.NegativeTests"/>
+    </classes>
+  </test>
+</suite>
